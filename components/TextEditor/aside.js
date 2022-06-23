@@ -1,5 +1,4 @@
 import imagesJSON from "../../pages/api/storage/images.json";
-import { RiImageAddFill } from "react-icons/ri";
 import { uploadImage } from "../../utils/upload";
 import { ButtonFile } from "../Buttons";
 

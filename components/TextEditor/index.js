@@ -13,7 +13,7 @@ import { GoListUnordered, GoListOrdered } from "react-icons/go";
 import { MdTitle } from "react-icons/md";
 import { RiPagesFill, RiVideoFill } from "react-icons/ri";
 import { useRef, useState, useEffect } from "react";
-import Aside from "./Aside";
+import Aside from "./aside";
 import { Anchor } from "../Anchors";
 import { ButtonCircle } from "../Buttons";
 import { guardarContenidoDeLaPagina } from "../../utils/upload";
