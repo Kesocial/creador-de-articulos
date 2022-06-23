@@ -1,3 +1,4 @@
+const host = "https://creador-de-articulos.vercel.app/";
 export const uploadImage = (e) => {
   const file = e.files[0];
   let URI = "";
@@ -20,7 +21,7 @@ export const uploadImage = (e) => {
         },
       });
     };
-    URI = "http://localhost:3000/api/storage/uploads/" + file.name;
+    URI = host+"/api/storage/uploads/" + file.name;
   } catch (err) {
     console.log(err);
   }
