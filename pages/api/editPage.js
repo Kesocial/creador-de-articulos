@@ -27,5 +27,6 @@ export default async function handler({ method, query, body }, res) {
       console.log(err);
       res.status(404).send(err);
     }
+  } else {
   }
 }
